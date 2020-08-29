@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Yanzg131.github.io</id>
     <title>NickYan的技术博客</title>
-    <updated>2020-08-29T01:43:58.358Z</updated>
+    <updated>2020-08-29T03:38:59.501Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Yanzg131.github.io"/>
     <link rel="self" href="https://Yanzg131.github.io/atom.xml"/>
@@ -10,6 +10,83 @@
     <logo>https://Yanzg131.github.io/images/avatar.png</logo>
     <icon>https://Yanzg131.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NickYan的技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[Python第一弹]]></title>
+        <id>https://Yanzg131.github.io/post/python-di-yi-dan/</id>
+        <link href="https://Yanzg131.github.io/post/python-di-yi-dan/">
+        </link>
+        <updated>2020-08-29T02:46:46.000Z</updated>
+        <summary type="html"><![CDATA[<p>正式开始我们的程序猿(媛)之路吧<br>
+这一弹，我们来了解一下python的基础操作</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>正式开始我们的程序猿(媛)之路吧<br>
+这一弹，我们来了解一下python的基础操作</p>
+<!-- more -->
+<h1 id="安装python">🤑安装python</h1>
+<p>由于我没有MAC OS的电脑（没钱，电脑带不动黑苹果）<br>
+所以我就只能教大家Windows下的操作了（安装不同而已，编程部分是一样的）<br>
+首先我们前往<a href="https://www.python.org/">Python官网</a><br>
+<img src="https://Yanzg131.github.io/post-images/1598670029134.png" alt="" loading="lazy"><br>
+进入<a href="https://www.python.org/downloads/">下载页面</a><br>
+<img src="https://Yanzg131.github.io/post-images/1598670036282.png" alt="" loading="lazy"><br>
+选择适合你的版本(最新版最好,建议不要下载太久版本和bate版,支持跟不上)<br>
+下载适合你计算机位数的版本<br>
+32位的通用性好一下,在一些很久的机器和很久的系统都能用<br>
+64位的比较快,但有一些计算机不支持</p>
+<blockquote>
+<p>如何查看位数呢<br>
+在桌面右键win10的此电脑(win7的我的电脑)或是进入此电脑(我的电脑)界面在界面最大的文件操作区右键<br>
+打开属性<br>
+在系统类型一栏就可以找到<br>
+<img src="https://Yanzg131.github.io/post-images/1598670457757.png" alt="" loading="lazy"><br>
+根据找到的信息下载对应的版本<br>
+32位的会标记为X86<br>
+64位的会标记为X64<br>
+下载后打开下载的文件<br>
+一路爽快的下一步就安装完了</p>
+</blockquote>
+<h1 id="配置">配置</h1>
+<p>这一部分会比较繁琐和困难,请耐心看完!🔎</p>
+<blockquote>
+<p>得吐槽一下:python不像node,node多好一安装就把配置一起好<br>
+垃圾python还要自己配置</p>
+</blockquote>
+<h2 id="配置path">配置Path</h2>
+<blockquote>
+<p>配置path可以使你在windows自带的cmd命令行中愉快的😋编辑python程序<br>
+依旧是右键此电脑打开属性<br>
+在左侧任务栏中找到高级系统设置(快打开他!)<br>
+在高级中找到环境变量(我永远都不会告诉你可以用Alt+N快速打开的!)<br>
+<img src="https://Yanzg131.github.io/post-images/1598672333982.png" alt="" loading="lazy"><br>
+在<strong>下方</strong>的系统变量方框中找到path一行选择后按下编辑<br>
+点击新建!<br>
+然后打开你的python<strong>目录</strong>(右键python打开文件位置)<br>
+把目录复制到里面<br>
+因为我安装是python3.7<br>
+所以我直接把那个python37文件夹的<strong>路径</strong>粘贴了进去<br>
+如果你是默认安装位置那你的目录就是:C:\Users\Administrator\AppData\Local\Programs\Python\Python37<br>
+打开你刚刚复制进去的文件夹<br>
+里面有个文件夹叫做:Scripts<br>
+复制这个文件夹的路径<br>
+再次在path里新建<br>
+把刚刚复制的路径粘贴进去<br>
+点击下方确定,欸~搞定了<br>
+点击键盘<a href="">Win+R</a>输入<a href="">cmd</a>打开Windows命令行<br>
+在命令行里输入<a href="">python</a>查看配置成功了没<br>
+如果出现error<br>
+就是前面哪一步配错了<br>
+再次检查一下<br>
+如果够细心,那应该就会出现一大串东东,那是python的版本和状态<br>
+<img src="https://Yanzg131.github.io/post-images/1598672117631.png" alt="" loading="lazy"><br>
+恭喜你,成功了!<br>
+<s>以后就可以为所欲为了</s></p>
+</blockquote>
+<h1 id="预告下一弹">预告下一弹</h1>
+<p>下一弹我们将开始我们的编程生涯<br>
+初学python的语法和规则<br>
+先讲讲标识符与保留字还有基础的赋值叭~</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[预告：初识Python]]></title>
         <id>https://Yanzg131.github.io/post/yu-gao-chu-shi-pythonyuyan/</id>
