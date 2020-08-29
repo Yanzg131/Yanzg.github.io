@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>推销一下Gridea | NickYan的技术博客</title>
+<title>计算机设备如何接入以及通信 | NickYan的技术博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,16 +18,15 @@
 
 
 
-    <meta name="description" content="特别推荐！
+    <meta name="description" content="小盆友，你是否对设备接入电脑的方式感到好奇？
+好奇就对了，  想要了解更多找我就对了
 
-👏  博主欢迎大家加入使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
-Github地址
-Gridea 官网
-作者的网站
-特性👇
-🤗  ..." />
-    <meta name="keywords" content="Gridea" />
+介绍
+设备接入电脑与计算机保持通信需要通过芯片组
+芯片组是何方神圣？
+简而言之，就是担任CPU与外界的翻译官
+芯片组就是大家买主板时主板上标的那串怎么看..." />
+    <meta name="keywords" content="技术,硬件" />
   </head>
   <body>
     <div id="app" class="main">
@@ -120,47 +119,88 @@ Gridea 官网
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">推销一下Gridea</h2>
-            <div class="post-date">2020-05-04</div>
+            <h2 class="post-title">计算机设备如何接入以及通信</h2>
+            <div class="post-date">2020-08-29</div>
             
-              <div class="feature-container" style="background-image: url('https://Yanzg131.github.io/post-images/hello-gridea.png')">
+              <div class="feature-container" style="background-image: url('https://s1.ax1x.com/2020/08/29/dHhG6g.png')">
               </div>
             
             <div class="post-content" v-pre>
-              <h2 id="特别推荐">特别推荐！</h2>
-<!-- more -->
-<p>👏  博主欢迎大家加入使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...<br>
-<a href="https://github.com/getgridea/gridea">Github地址</a><br>
-<a href="https://gridea.dev/">Gridea 官网</a><br>
-<a href="http://fehey.com/">作者的网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>🤗  可以在0基础搭建属于自己的博客</p>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong>简称<strong>MD</strong> 语法，进行快速创作 你的文章</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+              <p>小盆友，你是否对设备接入电脑的方式感到好奇？</p>
+<p>好奇就对了，  想要了解更多找我就对了</p>
+<!--more-->
+<h1 id="介绍">介绍</h1>
+<p>设备接入电脑与计算机保持通信需要通过芯片组</p>
+<p>芯片组是何方神圣？</p>
+<p>简而言之，就是担任CPU与外界的翻译官</p>
+<p>芯片组就是大家买主板时主板上标的那串怎么看都看不透的字符</p>
+<blockquote>
+<p>举个简单的栗子</p>
+</blockquote>
+<blockquote>
+<p>很多图吧大佬推荐的配置：E5 1230v2搭配h46主板</p>
+</blockquote>
+<blockquote>
+<p>其中h46就是就是指主板的芯片组</p>
+</blockquote>
+<h1 id="北桥篇">北桥篇</h1>
+<p>主板上的芯片组分为南桥和北桥</p>
+<blockquote>
+<p>南桥不直接和CPU通信</p>
+</blockquote>
+<blockquote>
+<p>而是把南桥下的连接的设备通过“高速”通道连接到北桥上</p>
+</blockquote>
+<blockquote>
+<p>所以说北桥分管着南桥</p>
+</blockquote>
+<p>北桥本身直接与CPU连接，相当于CPU的贴身秘书</p>
+<p>北桥有一种通道是北桥独有的，就是PCIE通道</p>
+<p>pcie 通道是高速通道比较占用CPU</p>
+<p>所以PC IE通道一般给比较重要的设备</p>
+<p>比如：内存，硬盘，独立显卡等就是连接在北桥上的</p>
+<h1 id="南桥篇">南桥篇</h1>
+<p>既然北桥是高速通道，那么南桥就对应是低速通道</p>
+<p>所以南桥不适合连接内存之类的需要高带宽的设备</p>
+<p>那么南桥可以连接什么呢？</p>
+<p>我们常用的通用串行接口就是USB就是连接在南桥上的</p>
+<p>南桥上的设备有一个北桥望桥兴叹的优势：支持热插拔</p>
+<p>北桥设备都是娇滴滴的需要精心维护的电脑必须设备</p>
+<p>而南桥设备嘛。。。。</p>
+<p>类比你现在身边那个用了几年的U盘。。。。(U盘泪目)</p>
+<blockquote>
+<p>我有个用了3年的U盘。。。那成色。。。崭新出土</p>
+</blockquote>
+<h1 id="通信">通信</h1>
+<p>现在的通信方式分为两大类</p>
+<ol>
+<li>串口通信</li>
+<li>并口通信</li>
+</ol>
 
             </div>
             
               <div class="tag-container">
                 
-                  <a href="https://Yanzg131.github.io/tag/beKQKJun8/" class="tag">
-                    Gridea
+                  <a href="https://Yanzg131.github.io/tag/bPnMepKU4/" class="tag">
+                    技术
+                  </a>
+                
+                  <a href="https://Yanzg131.github.io/tag/uWE17RApsa/" class="tag">
+                    硬件
                   </a>
                 
               </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://Yanzg131.github.io/post/python-di-yi-dan/">
+                  <h3 class="post-title">
+                    Python第一弹
+                  </h3>
+                </a>
+              </div>
             
 
             

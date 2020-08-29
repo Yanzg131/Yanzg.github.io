@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Yanzg131.github.io</id>
     <title>NickYan的技术博客</title>
-    <updated>2020-08-29T04:05:46.155Z</updated>
+    <updated>2020-08-29T15:37:41.663Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Yanzg131.github.io"/>
     <link rel="self" href="https://Yanzg131.github.io/atom.xml"/>
@@ -10,6 +10,68 @@
     <logo>https://Yanzg131.github.io/images/avatar.png</logo>
     <icon>https://Yanzg131.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NickYan的技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[计算机设备如何接入以及通信]]></title>
+        <id>https://Yanzg131.github.io/post/dian-nao-wai-she-ru-he-jie-ru-yi-ji-tong-xin/</id>
+        <link href="https://Yanzg131.github.io/post/dian-nao-wai-she-ru-he-jie-ru-yi-ji-tong-xin/">
+        </link>
+        <updated>2020-08-29T15:25:19.000Z</updated>
+        <summary type="html"><![CDATA[<p>小盆友，你是否对设备接入电脑的方式感到好奇？</p>
+<p>好奇就对了，  想要了解更多找我就对了</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>小盆友，你是否对设备接入电脑的方式感到好奇？</p>
+<p>好奇就对了，  想要了解更多找我就对了</p>
+<!--more-->
+<h1 id="介绍">介绍</h1>
+<p>设备接入电脑与计算机保持通信需要通过芯片组</p>
+<p>芯片组是何方神圣？</p>
+<p>简而言之，就是担任CPU与外界的翻译官</p>
+<p>芯片组就是大家买主板时主板上标的那串怎么看都看不透的字符</p>
+<blockquote>
+<p>举个简单的栗子</p>
+</blockquote>
+<blockquote>
+<p>很多图吧大佬推荐的配置：E5 1230v2搭配h46主板</p>
+</blockquote>
+<blockquote>
+<p>其中h46就是就是指主板的芯片组</p>
+</blockquote>
+<h1 id="北桥篇">北桥篇</h1>
+<p>主板上的芯片组分为南桥和北桥</p>
+<blockquote>
+<p>南桥不直接和CPU通信</p>
+</blockquote>
+<blockquote>
+<p>而是把南桥下的连接的设备通过“高速”通道连接到北桥上</p>
+</blockquote>
+<blockquote>
+<p>所以说北桥分管着南桥</p>
+</blockquote>
+<p>北桥本身直接与CPU连接，相当于CPU的贴身秘书</p>
+<p>北桥有一种通道是北桥独有的，就是PCIE通道</p>
+<p>pcie 通道是高速通道比较占用CPU</p>
+<p>所以PC IE通道一般给比较重要的设备</p>
+<p>比如：内存，硬盘，独立显卡等就是连接在北桥上的</p>
+<h1 id="南桥篇">南桥篇</h1>
+<p>既然北桥是高速通道，那么南桥就对应是低速通道</p>
+<p>所以南桥不适合连接内存之类的需要高带宽的设备</p>
+<p>那么南桥可以连接什么呢？</p>
+<p>我们常用的通用串行接口就是USB就是连接在南桥上的</p>
+<p>南桥上的设备有一个北桥望桥兴叹的优势：支持热插拔</p>
+<p>北桥设备都是娇滴滴的需要精心维护的电脑必须设备</p>
+<p>而南桥设备嘛。。。。</p>
+<p>类比你现在身边那个用了几年的U盘。。。。(U盘泪目)</p>
+<blockquote>
+<p>我有个用了3年的U盘。。。那成色。。。崭新出土</p>
+</blockquote>
+<h1 id="通信">通信</h1>
+<p>现在的通信方式分为两大类</p>
+<ol>
+<li>串口通信</li>
+<li>并口通信</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Python第一弹]]></title>
         <id>https://Yanzg131.github.io/post/python-di-yi-dan/</id>
