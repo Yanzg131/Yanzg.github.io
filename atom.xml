@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Yanzg131.github.io</id>
     <title>NickYan的技术博客</title>
-    <updated>2020-08-29T00:21:29.972Z</updated>
+    <updated>2020-08-29T01:26:51.445Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Yanzg131.github.io"/>
     <link rel="self" href="https://Yanzg131.github.io/atom.xml"/>
@@ -10,6 +10,40 @@
     <logo>https://Yanzg131.github.io/images/avatar.png</logo>
     <icon>https://Yanzg131.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NickYan的技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[预告：初识Python]]></title>
+        <id>https://Yanzg131.github.io/post/yu-gao-chu-shi-pythonyuyan/</id>
+        <link href="https://Yanzg131.github.io/post/yu-gao-chu-shi-pythonyuyan/">
+        </link>
+        <updated>2020-08-29T01:05:10.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="python的来头">python的来头</h1>
+<p>python起源于1989年是一种比较新型的语言<br>
+其发明者GUIDO van Rossum是诗人CWI的研究员觉得其他语法实在是太难了于是乎就自己发明了一个<br>
+早期的python编译器是由C语言编成的【/python害羞】<br>
+python的语法继承自ABC（ALL BASIC CODE），并且拥有Modla-3的错误处理机制（与C++相同）</p>
+<h1 id="python特点">python特点</h1>
+<ol>
+<li>python的语法简单（java惭愧）</li>
+<li>开源、免费（开源可是一种语言的生命）</li>
+<li>高层语言（是高级语言中的高级，不需要去考虑底层细节）</li>
+<li>通用（在任何平台上都可以使用）</li>
+<li>解释型语言：不需要转换为二进制程序，在有库的地方就可以运行</li>
+<li>扩展性：前面说过早期的python是由C语言写成的，所以python有一个传统：可调用C家族的库</li>
+</ol>
+<h1 id="python用途">python用途</h1>
+<ol>
+<li>程序（后端狗们的拿手好戏）</li>
+<li>AI（同为后端狗的我最近在弄这个）</li>
+<li>Websit</li>
+</ol>
+<p>总而言之，不管前端后端，python都适用！<br>
+全栈党的福音</p>
+<p>#广告一下<br>
+接下来我会出python一系列的教程<br>
+带你从小白走向大佬<br>
+不光如此，以后我还会出C语言系列、C++系列、硬件系列、Java系列（如果来得及的话）、以及Html系列</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[推销一下Gridea]]></title>
         <id>https://Yanzg131.github.io/post/hello-gridea/</id>
