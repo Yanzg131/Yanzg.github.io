@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Yanzg131.github.io</id>
     <title>NickYan的技术博客</title>
-    <updated>2020-08-29T15:39:37.547Z</updated>
+    <updated>2020-08-30T07:00:16.348Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Yanzg131.github.io"/>
     <link rel="self" href="https://Yanzg131.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Yanzg131.github.io/images/avatar.png</logo>
     <icon>https://Yanzg131.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NickYan的技术博客</rights>
+    <entry>
+        <title type="html"><![CDATA[机械硬盘接口篇]]></title>
+        <id>https://Yanzg131.github.io/post/ji-jie-ying-pan-jie-kou-pian/</id>
+        <link href="https://Yanzg131.github.io/post/ji-jie-ying-pan-jie-kou-pian/">
+        </link>
+        <updated>2020-08-30T06:54:59.000Z</updated>
+        <summary type="html"><![CDATA[<p>很多小伙伴在选购硬盘时</p>
+<p>都被硬盘各种各样的接口弄得晕头转向</p>
+<p>所以这次的博文我打算讲讲比较简单机械硬盘的接口的异同</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>很多小伙伴在选购硬盘时</p>
+<p>都被硬盘各种各样的接口弄得晕头转向</p>
+<p>所以这次的博文我打算讲讲比较简单机械硬盘的接口的异同</p>
+<!--more-->
+<p>目前的机械硬盘有两种接口</p>
+<ul>
+<li>串行接口</li>
+<li>并行接口</li>
+</ul>
+<h1 id="串行接口篇">串行接口篇</h1>
+<p>目前主流的硬盘都是采用串行接口的</p>
+<p>各种各样的串行接口不计其数</p>
+<p>而机械硬盘能使用的串行接口就只有SATA接口</p>
+<p>SATA接口的特征很明显</p>
+<p>支持热插拔</p>
+<p>分为左右两部分L型接口</p>
+<p>左边的接口是数据接口右边的是电源接口</p>
+<p>SATA接口分为三种</p>
+<ul>
+<li>SATA 1.0</li>
+<li>SATA 2.0</li>
+<li>SATA 3.0</li>
+</ul>
+<p>三种SATA都有一个共同点</p>
+<h2 id="sata-10">SATA 1.0</h2>
+<p><img src="https://Yanzg131.github.io/post-images/1598770717549.jpg" alt="" loading="lazy"><br>
+最老的串行接口</p>
+<p>特征是接口比较短小，传输速度慢</p>
+<p>为啥及接口小就传输慢呢</p>
+<p>我们刚才说了，左边是数据接口右边是电源接口</p>
+<p>而硬盘接口的长短取决于电源接口的长度</p>
+<p>SATA 1.0接口没有大电压的电源线</p>
+<p>所以自然速度就会遭限制</p>
+<p>所以现在的SATA 1.0接口都应用于光驱之类不需要高速度，高电压的设备上</p>
+<p>我们说过</p>
+<h2 id="sata-20">SATA 2.0</h2>
+<h2 id="sata-30">SATA 3.0</h2>
+<p>待更新</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[计算机设备如何接入以及通信]]></title>
         <id>https://Yanzg131.github.io/post/dian-nao-wai-she-ru-he-jie-ru-yi-ji-tong-xin/</id>

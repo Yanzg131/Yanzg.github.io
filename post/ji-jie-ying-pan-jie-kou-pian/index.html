@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>计算机设备如何接入以及通信 | NickYan的技术博客</title>
+<title>机械硬盘接口篇 | NickYan的技术博客</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,15 +18,20 @@
 
 
 
-    <meta name="description" content="小盆友，你是否对设备接入电脑的方式感到好奇？
-好奇就对了，  想要了解更多找我就对了
+    <meta name="description" content="很多小伙伴在选购硬盘时
+都被硬盘各种各样的接口弄得晕头转向
+所以这次的博文我打算讲讲比较简单机械硬盘的接口的异同
 
-介绍
-设备接入电脑与计算机保持通信需要通过芯片组
-芯片组是何方神圣？
-简而言之，就是担任CPU与外界的翻译官
-芯片组就是大家买主板时主板上标的那串怎么看..." />
-    <meta name="keywords" content="技术,硬件" />
+目前的机械硬盘有两种接口
+
+串行接口
+并行接口
+
+串行接口篇
+目前主流的硬盘都是采用串行接口的
+各种各样的串行接口不计其数
+..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -119,85 +124,60 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">计算机设备如何接入以及通信</h2>
-            <div class="post-date">2020-08-29</div>
+            <h2 class="post-title">机械硬盘接口篇</h2>
+            <div class="post-date">2020-08-30</div>
             
               <div class="feature-container" style="background-image: url('https://s1.ax1x.com/2020/08/29/dHhG6g.png')">
               </div>
             
             <div class="post-content" v-pre>
-              <p>小盆友，你是否对设备接入电脑的方式感到好奇？</p>
-<p>好奇就对了，  想要了解更多找我就对了</p>
+              <p>很多小伙伴在选购硬盘时</p>
+<p>都被硬盘各种各样的接口弄得晕头转向</p>
+<p>所以这次的博文我打算讲讲比较简单机械硬盘的接口的异同</p>
 <!--more-->
-<h1 id="介绍">介绍</h1>
-<p>设备接入电脑与计算机保持通信需要通过芯片组</p>
-<p>芯片组是何方神圣？</p>
-<p>简而言之，就是担任CPU与外界的翻译官</p>
-<p>芯片组就是大家买主板时主板上标的那串怎么看都看不透的字符</p>
-<blockquote>
-<p>举个简单的栗子</p>
-</blockquote>
-<blockquote>
-<p>很多图吧大佬推荐的配置：E5 1230v2搭配h46主板</p>
-</blockquote>
-<blockquote>
-<p>其中h46就是就是指主板的芯片组</p>
-</blockquote>
-<h1 id="北桥篇">北桥篇</h1>
-<p>主板上的芯片组分为南桥和北桥</p>
-<blockquote>
-<p>南桥不直接和CPU通信</p>
-</blockquote>
-<blockquote>
-<p>而是把南桥下的连接的设备通过“高速”通道连接到北桥上</p>
-</blockquote>
-<blockquote>
-<p>所以说北桥分管着南桥</p>
-</blockquote>
-<p>北桥本身直接与CPU连接，相当于CPU的贴身秘书</p>
-<p>北桥有一种通道是北桥独有的，就是PCIE通道</p>
-<p>pcie 通道是高速通道比较占用CPU</p>
-<p>所以PC IE通道一般给比较重要的设备</p>
-<p>比如：内存，硬盘，独立显卡等就是连接在北桥上的</p>
-<h1 id="南桥篇">南桥篇</h1>
-<p>既然北桥是高速通道，那么南桥就对应是低速通道</p>
-<p>所以南桥不适合连接内存之类的需要高带宽的设备</p>
-<p>那么南桥可以连接什么呢？</p>
-<p>我们常用的通用串行接口就是USB就是连接在南桥上的</p>
-<p>南桥上的设备有一个北桥望桥兴叹的优势：支持热插拔</p>
-<p>北桥设备都是娇滴滴的需要精心维护的电脑必须设备</p>
-<p>而南桥设备嘛。。。。</p>
-<p>类比你现在身边那个用了几年的U盘。。。。(U盘泪目)</p>
-<blockquote>
-<p>我有个用了3年的U盘。。。那成色。。。崭新出土</p>
-</blockquote>
-<h1 id="通信">通信</h1>
-<p>现在的通信方式分为两大类</p>
-<ol>
-<li>串口通信</li>
-<li>并口通信</li>
-</ol>
+<p>目前的机械硬盘有两种接口</p>
+<ul>
+<li>串行接口</li>
+<li>并行接口</li>
+</ul>
+<h1 id="串行接口篇">串行接口篇</h1>
+<p>目前主流的硬盘都是采用串行接口的</p>
+<p>各种各样的串行接口不计其数</p>
+<p>而机械硬盘能使用的串行接口就只有SATA接口</p>
+<p>SATA接口的特征很明显</p>
+<p>支持热插拔</p>
+<p>分为左右两部分L型接口</p>
+<p>左边的接口是数据接口右边的是电源接口</p>
+<p>SATA接口分为三种</p>
+<ul>
+<li>SATA 1.0</li>
+<li>SATA 2.0</li>
+<li>SATA 3.0</li>
+</ul>
+<p>三种SATA都有一个共同点</p>
+<h2 id="sata-10">SATA 1.0</h2>
+<p><img src="https://Yanzg131.github.io/post-images/1598770717549.jpg" alt="" loading="lazy"><br>
+最老的串行接口</p>
+<p>特征是接口比较短小，传输速度慢</p>
+<p>为啥及接口小就传输慢呢</p>
+<p>我们刚才说了，左边是数据接口右边是电源接口</p>
+<p>而硬盘接口的长短取决于电源接口的长度</p>
+<p>SATA 1.0接口没有大电压的电源线</p>
+<p>所以自然速度就会遭限制</p>
+<p>所以现在的SATA 1.0接口都应用于光驱之类不需要高速度，高电压的设备上</p>
+<p>我们说过</p>
+<h2 id="sata-20">SATA 2.0</h2>
+<h2 id="sata-30">SATA 3.0</h2>
+<p>待更新</p>
 
             </div>
-            
-              <div class="tag-container">
-                
-                  <a href="https://Yanzg131.github.io/tag/bPnMepKU4/" class="tag">
-                    技术
-                  </a>
-                
-                  <a href="https://Yanzg131.github.io/tag/uWE17RApsa/" class="tag">
-                    硬件
-                  </a>
-                
-              </div>
             
             
               <div class="next-post">
                 <div class="next">下一篇</div>
-                <a href="https://Yanzg131.github.io/post/python-di-yi-dan/">
+                <a href="https://Yanzg131.github.io/post/dian-nao-wai-she-ru-he-jie-ru-yi-ji-tong-xin/">
                   <h3 class="post-title">
-                    Python第一弹
+                    计算机设备如何接入以及通信
                   </h3>
                 </a>
               </div>
